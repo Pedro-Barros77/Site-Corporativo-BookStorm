@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.BG-Container{
+    background:url(../assets/HomeBG.jpg) no-repeat center center fixed;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    background-size: cover;
+}
+
+.BG-Container2{
+    background:url(../assets/HomeBG2.jpg) no-repeat center center fixed;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    background-size: cover;
+}
+
+.BG-Container3{
+    background:url(../assets/Contact-BG.jpg) no-repeat center center;
+    height: 91.8vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    background-size: cover;
+}
+
+.BG-Container4{
+    background:url(../assets/QuemSomos-BG.jpg) no-repeat center center;
+    height: 91.8vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    background-size: cover;
+}
+
+.BG-Container5{
+    background:url(../assets/Livros-BG.jpg) no-repeat center center fixed;
+    height: 91.8vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    background-size: cover;
+}
+
+.HomeTitle{
+    text-align: center;
+}
+.HomeTitle p{
+    margin-top: 10px;
+}
+.HomeTitle h1{
+    margin-top: 30px;
+}
+
+.accordion{
+    margin-top: 20px;
+}
+
+.cardTitle{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.cardTitle span, h5 span{
+    color: rgb(161, 113, 250);
+    font-weight: 500;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+.carousel h5{
+    background-color: rgba(20, 20, 20, .5);
+}
+
+.carousel-item img{
+    height: 60vh;
+}
+
+.card .cropContainer{
+    overflow:hidden; /*hide bounds of image */
+    margin:0;   /*reset margin of figure tag*/
+    height: 250px;
+ }
+ .card .cropIMG{
+    display:block; /*remove inline-block spaces*/
+    width:100%; /*make image streatch*/
+ }
+
+ .hideC{
+     display: none;
+ }
+ .showC{
+     display: block;
+ }
